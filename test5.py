@@ -9,5 +9,7 @@ cols = ['m','r','y','b','c']
 
 plt.pie(slices, labels = activities, colors = cols,startangle = 0, shadow = True, explode =(0,0,0,0.3,0),
         autopct='%1.1f%%')
+#explode - the slice comes out of the circle
+#startangle - angle from where it starts, then goes ccw
 plt.title('pie chart')
 plt.show()
