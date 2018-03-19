@@ -22,3 +22,5 @@ def animate(i):
 
 ani = animation.FuncAnimation(fig, animate, interval=1000)
 plt.show()
+# Adding data in the text file and saving will update the graph - manual approach
+# Sensor data coming continously, graph will update in real time - not implemented in this code
