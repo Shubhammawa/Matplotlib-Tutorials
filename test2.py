@@ -14,3 +14,6 @@ plt.ylabel('y')
 plt.title('Bar charts')
 plt.legend()
 plt.show()
+
+plt.hist(y2,x2,histtype = 'bar', rwidth=0.8)
+plt.show()
